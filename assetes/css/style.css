@@ -1,0 +1,145 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    
+}
+/* tophead setion start */
+.tophead{
+width: 100%;
+height: 30px;
+display: flex;
+padding: 0px 100px;
+align-items: center;
+justify-content: space-between;
+background-color: #05571d;
+}
+.tophead ul li
+{
+    color: white;
+    margin: 0px 3px;
+    display: inline-block;
+}
+.tophead ul li a{
+    color:#c2e4c6;
+}
+/* tophead setion end */
+/* header section start */
+header{
+    width: 100%;
+    height:100px;
+    padding:10px 100px;
+    background-color: #4d9161;
+    color: white;
+}
+header h1{
+    font-size: 50px;
+    margin-right: 20px;
+}
+header h1,header h3{
+    display: inline-block;
+}
+/* header section end */
+/* navbar section start */
+nav {
+    width:100%;
+    height:40px;
+    padding: 0px 100px;
+    line-height: 40px;
+    background-color: #89c29a;
+   
+}
+nav ul li{
+   margin-right: 20px;
+   display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+}
+nav ul li a:hover{
+    font-size: 105%;
+    transition: 0.3s linear;
+}
+/* navbar section end */
+/* content section start */
+section{
+    color:rgb(50, 50, 88);
+    width:100%;
+    padding:0px 100px;
+}
+section main{
+    width:80%;
+    float:left;
+    padding-top:20px;
+}
+section main h4{
+    margin:12px;
+}
+section main ol,section main ul{
+    padding-left: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+h5{
+    padding:10px 0px;
+}
+.indent{
+    border-left:4px solid green;
+    margin-left:80px;
+    padding:10px;
+}
+
+section aside{
+    width:20%;
+    float:right;
+    padding:20px 15px;
+    background-color: rgb(172, 185, 181);
+}
+aside ul li{
+    font-weight: 600;
+    list-style: none;
+}
+aside ul li ul li{
+    padding-left:20px;
+    font-weight:normal;
+}
+h3{
+    margin-top: 20px;
+}
+/* content section end */
+/* footer section is start */
+footer{
+    width:100%;
+    height:150px;
+    color:#fff;
+    padding:10px 100px;
+    background-color: #05571d;
+}
+footer ul{
+    list-style:none;
+}
+
+footer .links{
+    width:33%;
+    float:left;
+}
+footer .fallow{
+    width:33%;
+    float:left;
+    padding-left:100px;
+}
+footer .copy{
+    width:33%;
+    float:right;
+    text-align: right;
+}
+
+
+/* footer section is end */
+
+
+/* content section end */
